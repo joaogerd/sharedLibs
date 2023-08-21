@@ -1,6 +1,16 @@
 # sharedLibs
 
+
+This is a collection of commonly shared libraries known as sharedLibs, which are required for several CPTEC applications. There are two main types of libraries: those developed by CPTEC (referred to as CPTECLIBS) and those developed by NCEP (referred to as NCEPLIBS).
+
+The NCEPLIBS were forked from the [NOAA-EMC](https://github.com/NOAA-EMC) GitHub repository, and all documentation can be accessed there.
+
+Below is a brief description of CPTECLIBS and NCEPLIBS (NCEPLIBS description is from the [NOAA-EMC](https://github.com/NOAA-EMC) GitHub readme).
+
+
 ## CPTECLIBS
+
+### Introduction
 
 This is a collection of libraries commonly known as CPTECLIBS that are
 required for several CPTEC applications e.g. GSI, SCANTEC, pyBAM etc. For
