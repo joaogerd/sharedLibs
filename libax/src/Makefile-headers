@@ -1,6 +1,0 @@
-include_HEADERS = \
-	accessgrib.$(FC_MODEXT) \
-	accessnetcdf.$(FC_MODEXT) \
-	coord_compute.$(FC_MODEXT) \
-	fileaccess.$(FC_MODEXT) \
-	m_gradsfiles.$(FC_MODEXT)
