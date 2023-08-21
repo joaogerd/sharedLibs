@@ -1,0 +1,11 @@
+accessGrib.o: \
+	coord_compute.o
+
+fileAccess.o: \
+	accessGrib.o \
+	accessNetcdf.o \
+	m_GrADSfiles.o
+
+m_GrADSfiles.o: \
+	accessGrib.o
+

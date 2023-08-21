@@ -1,0 +1,10 @@
+include_HEADERS = \
+	bilininterp.$(FC_MODEXT) \
+	endianutility.$(FC_MODEXT) \
+	typekinds.$(FC_MODEXT) \
+	coord_compute.$(FC_MODEXT) \
+	m_inpak90.$(FC_MODEXT) \
+	m_msg.$(FC_MODEXT) \
+	m_stdio.$(FC_MODEXT) \
+	m_string.$(FC_MODEXT) \
+	m_time.$(FC_MODEXT) 
