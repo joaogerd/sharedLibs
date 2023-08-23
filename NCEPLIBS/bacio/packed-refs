@@ -1,0 +1,30 @@
+# pack-refs with: peeled fully-peeled sorted 
+aa0fbbe0aa9a026b774723d165d87090cd52e4a5 refs/heads/develop
+efe59a09d9dd4697b90a374d253d962d10605ae7 refs/heads/ejh_change_2
+eeee047dc61100620acafe590a0221ee3bb38341 refs/heads/ejh_change_f90
+a81d3051293cb9fc687a9ccffdf50bef08a7dfbb refs/heads/ejh_ci_names
+a129e2ec8a7507c6e2a042ed202448affe64ec80 refs/heads/ejh_doc
+12ce8840da6ec1cc7f6165b91f2cee0cd8f26fac refs/heads/ejh_doc_2
+6ad30ed7fcb584f4af6926172b90f9c399ff7952 refs/heads/ejh_err_check
+7483ca968ee881380e6fd40bc9123b9989cb7686 refs/heads/ejh_fortran2
+6f78490af75dc24129fc33fe09a0380c42319985 refs/heads/ejh_mem
+a129e2ec8a7507c6e2a042ed202448affe64ec80 refs/heads/ejh_readme
+9a941a0b4222cb6fb06aebb18b77996d8797853a refs/heads/ejh_shared
+501863342dcd0ff60ff8e9df749ca56c74915c82 refs/heads/ejh_shared_1_31
+db32364d549f083c4aaf525cfcb5cf3afcfa4dc3 refs/heads/gh-pages
+08fe548fe2fce3cfef3d0f16f2a0be0d2c0ec81c refs/heads/release/public-v1
+18c016ee6f9db096f4f7bdcb9293e96a64279c4b refs/tags/bacio_v2.0.0_r21386
+504cf115a18d759044048027475b1c5dcc629ffc refs/tags/bacio_v2.0.1_r22370
+13cff73cf82aa45bbb81582d6d8b6323aff8738f refs/tags/bacio_v2.0.2
+8e8ff8fd7b148683b73c4dc76d9d996d22d079f5 refs/tags/bacio_v2.0.3
+9c2f72e13d7a715dc281472090b363a72d9eedae refs/tags/bacio_v2.0.4
+497e562afd44ba27ac2a69885cf020a36012622e refs/tags/bacio_v2.1.0
+6e8ceb4e462eec6aa3cace85ff81115f655f9abb refs/tags/nco_nwprod_Aug102010
+3dd26767215bba7b11767f591dcafec902067a18 refs/tags/status_v2.0.1_nwprodWCOSS
+08fe548fe2fce3cfef3d0f16f2a0be0d2c0ec81c refs/tags/ufs-v1.1.0
+003c01e8bbc21a7b11c0e5eafdd59e0e27fa9013 refs/tags/v2.3.0
+^a4c5bbea417cd42655f40e475b6030777066958b
+5e4cbb5e9a02e0b0ad8de0a924aec19dba5b31c0 refs/tags/v2.4.0
+9e1e5dd909c2f21b6b28e8df6a38f4616b38b7f1 refs/tags/v2.4.1
+6174ca0a71b539a1fb33de0817facead58300d0b refs/tags/v2.5.0
+12ce8840da6ec1cc7f6165b91f2cee0cd8f26fac refs/tags/v2.6.0
