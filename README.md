@@ -64,6 +64,18 @@ Although `sigioBAM` may eventually stop existing as an independent library, it s
 
 It is considered deprecated in the context of `sharedLibs` and should be progressively removed from the project. New development should not depend on it unless strictly necessary for temporary compatibility with legacy workflows.
 
+## Documentation
+
+The initial documentation is available under `docs/`:
+
+- [`docs/overview.md`](docs/overview.md): project overview and development direction.
+- [`docs/libmisc.md`](docs/libmisc.md): role, scope, and modernization notes for `libmisc`.
+- [`docs/libax.md`](docs/libax.md): role, responsibilities, dependencies, and future API direction for `libax`.
+- [`docs/sigioBAM.md`](docs/sigioBAM.md): legacy status and review strategy for `sigioBAM`.
+- [`docs/migration-from-w3lib.md`](docs/migration-from-w3lib.md): migration notes for removing `w3lib` progressively.
+- [`docs/license.md`](docs/license.md): license policy and pending license review.
+- [`docs/source-inventory.md`](docs/source-inventory.md): initial source inventory and component status.
+
 ## Suggested repository organization
 
 The repository is expected to move toward a structure similar to:
@@ -83,7 +95,9 @@ sharedLibs/
 │   ├── libmisc.md
 │   ├── libax.md
 │   ├── sigioBAM.md
-│   └── migration-from-w3lib.md
+│   ├── migration-from-w3lib.md
+│   ├── license.md
+│   └── source-inventory.md
 ├── examples/
 │   ├── libmisc/
 │   └── libax/
@@ -131,7 +145,7 @@ The current direction is different: `sharedLibs` is not intended to be a mirror 
 
 The license status of the repository should be reviewed and made explicit in a top-level `LICENSE` file.
 
-Because this repository may contain code with different origins, each component should be checked before assigning or changing its license.
+Because this repository may contain code with different origins, each component should be checked before assigning or changing its license. See [`docs/license.md`](docs/license.md) for the current policy notes.
 
 ## Status
 
