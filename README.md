@@ -75,6 +75,7 @@ The initial documentation is available under `docs/`:
 - [`docs/migration-from-w3lib.md`](docs/migration-from-w3lib.md): migration notes for removing `w3lib` progressively.
 - [`docs/license.md`](docs/license.md): license policy and pending license review.
 - [`docs/source-inventory.md`](docs/source-inventory.md): initial source inventory and component status.
+- [`docs/build.md`](docs/build.md): build instructions for the modern CMake workflow.
 
 ## Suggested repository organization
 
@@ -97,7 +98,8 @@ sharedLibs/
 │   ├── sigioBAM.md
 │   ├── migration-from-w3lib.md
 │   ├── license.md
-│   └── source-inventory.md
+│   ├── source-inventory.md
+│   └── build.md
 ├── examples/
 │   ├── libmisc/
 │   └── libax/
@@ -110,9 +112,9 @@ This structure is a target organization. The current code may still reflect an o
 
 ## Build system
 
-A unified build system is planned for the repository.
+A modern CMake workflow is being introduced in parallel with the legacy Autotools files.
 
-The preferred direction is to provide an out-of-source CMake workflow, for example:
+The initial CMake target builds only `libmisc`:
 
 ```bash
 cmake -S . -B build -DCMAKE_INSTALL_PREFIX=$HOME/sharedLibs
@@ -120,7 +122,7 @@ cmake --build build -j
 cmake --install build
 ```
 
-At this stage, users should inspect the individual library directories for available build scripts or legacy compilation instructions.
+See [`docs/build.md`](docs/build.md) for details.
 
 ## Development priorities
 
